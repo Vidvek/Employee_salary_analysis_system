@@ -1,0 +1,31 @@
+Employee data
+   Unnamed: 0   name department  salary   exp gender
+0           0   ravi        cse   12000  2yrs   male
+1           1  rahul         it   13000   1yr   male
+2           2   ramu        eee   15000  3yrs   male
+3           3    ram         ds   14000  4yrs   male
+Employee info
+<class 'pandas.DataFrame'>
+RangeIndex: 4 entries, 0 to 3
+Data columns (total 6 columns):
+ #   Column      Non-Null Count  Dtype
+---  ------      --------------  -----
+ 0   Unnamed: 0  4 non-null      int64
+ 1   name        4 non-null      str  
+ 2   department  4 non-null      str  
+ 3   salary      4 non-null      int64
+ 4   exp         4 non-null      str  
+ 5   gender      4 non-null      str  
+dtypes: int64(2), str(4)
+memory usage: 324.0 bytes
+None
+
+Average salary 13500.0
+
+ maximum salary: 15000
+department wise salary : department
+cse    12000.0
+ds     14000.0
+eee    15000.0
+it     13000.0
+Name: salary, dtype: float64
